@@ -1,0 +1,321 @@
+.gradient-background {
+    background: linear-gradient(90deg, rgba(33,37,40,200) 43%, rgba(164,55,187,1) 100%);
+    height: 735px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inglise {
+
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 1300px;
+    z-index: 1;
+    }
+
+.eesti {
+
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 1250px;
+    z-index: 1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;;
+    background-color: #212529;
+    color: rgb(241, 241, 241);
+}
+
+
+.suur-pilt {
+    order: 1;
+    flex: 1;
+    padding-left: 100px;
+    position: relative;
+    top: 20px;
+    
+}
+
+.pealkiri {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hello {
+
+    color: white; 
+    position: relative;
+    padding-bottom: 10px;
+    right: 125px;
+    font-size: 25px;
+}
+
+.tristanlaansalu {
+    color: white;
+    font-size: 3rem;
+    position: relative;
+    left: 65px;
+    bottom: 105px;
+    font-weight: 700;
+
+}
+
+.lillapunkt {
+    font-family: 'Gtwalsheimprotrial', monospace;
+    color: #a433bb;
+    font-size: 5rem;
+
+}
+
+.tekst {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: relative;
+    bottom: 100px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.resume-page{
+
+    background-color: #212529;
+    display: flex;
+    height: 300px;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+ 
+}
+
+.education {
+
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 20px;
+
+    
+}
+
+.education-header {
+
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    grid-column: span 2;
+    
+}
+
+.work {
+
+    width: 400px;
+
+}
+
+.work-text {
+
+   color: white;
+   font-weight: 700;
+   font-size: 20px;
+   
+
+}
+
+.kaks-korvuti {
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.education-list, .work-list {
+
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 120px auto;
+    
+}
+
+
+.r3-c12 {
+
+    grid-row: 3;
+    grid-column: 1 / 3;
+    
+}
+
+
+
+.about-me {
+
+    height: 300px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+    letter-spacing: 0.4px;
+}
+
+.about-me h1 {
+
+    padding-bottom: 10px;
+}
+
+
+.footer {
+
+    height: 150px;
+    background: #a437bb;
+
+}
+
+.footer img{
+
+    height: 20px;
+    margin-right: 13px;
+    position: relative;
+    top: 3px;
+
+}
+
+
+.footerMain ul{
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 25px;
+    
+}
+
+li {
+
+    margin-right: 30px;
+}
+
+.footerBottom { 
+
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.footerMain ul li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+@media (min-width: 1601px) {
+
+    .gradient-background{
+
+        height: 100vh;
+      
+    }
+    
+    .pilt{ 
+
+        height: 900px;
+        position: relative;
+        left: 55px;
+
+    }
+
+    .tristanlaansalu {
+
+        font-size: 4rem;
+    }
+
+    .hello {
+
+        font-size: 30px;
+        position: relative;
+        right: 185px;
+    }
+
+    .tekst {
+
+        font-size: 1.4em
+    }
+
+    
+    .education {
+
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+     
+    }
+    
+    .education-header {
+    
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+        grid-column: span 2;
+        
+    }
+    
+    .work {
+    
+        width: 500px;
+    
+    }
+    
+    .work-text {
+    
+       color: white;
+       font-weight: 700;
+       font-size: 25px;
+       
+    }
+
+    .education-list, .work-list {
+
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 150px auto;
+        font-size: 20px;
+        
+    }
+
+    .resume-page {
+
+        margin-bottom: 60px;
+    }
+
+    .about-me {
+
+        font-size: 20px;
+
+    }
+
+    .inglise {
+
+        left: 1700px;
+
+    }
+
+    .eesti {
+
+        left: 1750px;
+
+    }
+
+
+
+}
+
